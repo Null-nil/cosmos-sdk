@@ -635,7 +635,7 @@ func registerServices[T transaction.Tx](s appmodulev2.AppModule, app *App[T], re
 
 		if module, ok := s.(appmodulev2.HasQueryHandlers); ok {
 			module.RegisterQueryHandlers(app.queryRouterBuilder)
-			// TODO: query regist by RegisterQueryHandlers not in grpcQueryDecoders
+			// TODO: query register by RegisterQueryHandlers not in grpcQueryDecoders
 			if module, ok := s.(interface {
 				GetQueryDecoders() map[string]func() gogoproto.Message
 			}); ok {
