@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"os"
 
+	tmjson "github.com/Null-nil/tendermint/libs/json"
+	tmproto "github.com/Null-nil/tendermint/proto/tendermint/types"
+	tmtypes "github.com/Null-nil/tendermint/types"
 	"github.com/spf13/cobra"
-	tmjson "github.com/tendermint/tendermint/libs/json"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	tmtypes "github.com/tendermint/tendermint/types"
 
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/server/types"

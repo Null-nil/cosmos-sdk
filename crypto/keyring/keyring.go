@@ -11,9 +11,9 @@ import (
 	"strings"
 
 	"github.com/99designs/keyring"
+	tmcrypto "github.com/Null-nil/tendermint/crypto"
 	"github.com/pkg/errors"
 	"github.com/tendermint/crypto/bcrypt"
-	tmcrypto "github.com/tendermint/tendermint/crypto"
 
 	"github.com/cosmos/cosmos-sdk/client/input"
 	"github.com/cosmos/cosmos-sdk/codec"

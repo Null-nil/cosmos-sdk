@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"strings"
 
+	tmcli "github.com/Null-nil/tendermint/libs/cli"
 	"github.com/gogo/protobuf/proto"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/suite"
-	tmcli "github.com/tendermint/tendermint/libs/cli"
 
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/crypto/hd"

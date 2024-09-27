@@ -4,8 +4,8 @@ import (
 	"sort"
 
 	"cosmossdk.io/math"
+	tmproto "github.com/Null-nil/tendermint/proto/tendermint/types"
 	"github.com/gogo/protobuf/proto"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"

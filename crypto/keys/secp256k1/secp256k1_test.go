@@ -7,12 +7,12 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/Null-nil/tendermint/crypto"
+	tmsecp256k1 "github.com/Null-nil/tendermint/crypto/secp256k1"
 	btcSecp256k1 "github.com/btcsuite/btcd/btcec"
 	"github.com/cosmos/btcutil/base58"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/crypto"
-	tmsecp256k1 "github.com/tendermint/tendermint/crypto/secp256k1"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"

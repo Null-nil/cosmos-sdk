@@ -6,11 +6,11 @@ import (
 	"encoding/gob"
 	"hash"
 
+	"github.com/Null-nil/tendermint/crypto/merkle"
+	tmmerkle "github.com/Null-nil/tendermint/proto/tendermint/crypto"
 	"github.com/celestiaorg/smt"
 	"github.com/cosmos/cosmos-sdk/store/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/tendermint/tendermint/crypto/merkle"
-	tmmerkle "github.com/tendermint/tendermint/proto/tendermint/crypto"
 )
 
 type HasherType byte

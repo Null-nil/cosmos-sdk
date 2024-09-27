@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math/bits"
 
+	"github.com/Null-nil/tendermint/proto/tendermint/crypto"
 	ics23 "github.com/confio/ics23/go"
-	"github.com/tendermint/tendermint/proto/tendermint/crypto"
 )
 
 // ConvertExistenceProof will convert the given proof into a valid

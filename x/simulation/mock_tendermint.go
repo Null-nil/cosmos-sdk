@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	cryptoenc "github.com/tendermint/tendermint/crypto/encoding"
-	tmbytes "github.com/tendermint/tendermint/libs/bytes"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
+	abci "github.com/Null-nil/tendermint/abci/types"
+	cryptoenc "github.com/Null-nil/tendermint/crypto/encoding"
+	tmbytes "github.com/Null-nil/tendermint/libs/bytes"
+	tmproto "github.com/Null-nil/tendermint/proto/tendermint/types"
 )
 
 type mockValidator struct {

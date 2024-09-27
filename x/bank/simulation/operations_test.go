@@ -4,9 +4,9 @@ import (
 	"math/rand"
 	"testing"
 
+	abci "github.com/Null-nil/tendermint/abci/types"
+	tmproto "github.com/Null-nil/tendermint/proto/tendermint/types"
 	"github.com/stretchr/testify/suite"
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
 	"github.com/cosmos/cosmos-sdk/simapp"
 	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"

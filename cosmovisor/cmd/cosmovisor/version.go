@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
+	tmcli "github.com/Null-nil/tendermint/libs/cli"
 	"github.com/cosmos/cosmos-sdk/cosmovisor"
 	"github.com/rs/zerolog"
 	"github.com/spf13/cobra"
-	tmcli "github.com/tendermint/tendermint/libs/cli"
 )
 
 func init() {

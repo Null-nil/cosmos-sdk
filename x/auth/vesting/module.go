@@ -3,9 +3,9 @@ package vesting
 import (
 	"encoding/json"
 
+	abci "github.com/Null-nil/tendermint/abci/types"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
-	abci "github.com/tendermint/tendermint/abci/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"

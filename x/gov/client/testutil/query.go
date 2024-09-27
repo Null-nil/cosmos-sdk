@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	tmcli "github.com/tendermint/tendermint/libs/cli"
+	tmcli "github.com/Null-nil/tendermint/libs/cli"
 
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
 	sdk "github.com/cosmos/cosmos-sdk/types"

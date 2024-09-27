@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"cosmossdk.io/math"
+	tmproto "github.com/Null-nil/tendermint/proto/tendermint/types"
 	"github.com/stretchr/testify/suite"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
 	"github.com/cosmos/cosmos-sdk/baseapp"

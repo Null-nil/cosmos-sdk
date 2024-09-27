@@ -3,7 +3,7 @@ package testutil
 import (
 	"fmt"
 
-	tmcli "github.com/tendermint/tendermint/libs/cli"
+	tmcli "github.com/Null-nil/tendermint/libs/cli"
 
 	"github.com/cosmos/cosmos-sdk/testutil"
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"

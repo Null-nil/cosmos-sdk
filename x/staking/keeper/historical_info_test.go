@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"cosmossdk.io/math"
+	tmproto "github.com/Null-nil/tendermint/proto/tendermint/types"
 	"github.com/stretchr/testify/require"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
 	"github.com/cosmos/cosmos-sdk/simapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"

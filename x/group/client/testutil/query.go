@@ -11,7 +11,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/group"
 	client "github.com/cosmos/cosmos-sdk/x/group/client/cli"
 
-	tmcli "github.com/tendermint/tendermint/libs/cli"
+	tmcli "github.com/Null-nil/tendermint/libs/cli"
 )
 
 func (s *IntegrationTestSuite) TestQueryGroupInfo() {

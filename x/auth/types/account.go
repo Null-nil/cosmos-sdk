@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/Null-nil/tendermint/crypto"
 	"github.com/gogo/protobuf/proto"
-	"github.com/tendermint/tendermint/crypto"
 	"sigs.k8s.io/yaml"
 
 	"github.com/cosmos/cosmos-sdk/codec"

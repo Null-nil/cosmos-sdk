@@ -3,9 +3,9 @@ package keeper_test
 import (
 	"testing"
 
+	tmproto "github.com/Null-nil/tendermint/proto/tendermint/types"
+	tmtime "github.com/Null-nil/tendermint/types/time"
 	"github.com/stretchr/testify/suite"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
 
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/simapp"

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/Null-nil/tendermint/crypto"
 	"github.com/tendermint/crypto/bcrypt"
-	"github.com/tendermint/tendermint/crypto"
 	"golang.org/x/crypto/openpgp/armor" // nolint: staticcheck
 
 	"github.com/cosmos/cosmos-sdk/codec/legacy"

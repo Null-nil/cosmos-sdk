@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"cosmossdk.io/math"
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmprotocrypto "github.com/tendermint/tendermint/proto/tendermint/crypto"
+	abci "github.com/Null-nil/tendermint/abci/types"
+	tmprotocrypto "github.com/Null-nil/tendermint/proto/tendermint/crypto"
 	"sigs.k8s.io/yaml"
 
 	"github.com/cosmos/cosmos-sdk/codec"

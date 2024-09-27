@@ -7,8 +7,8 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/Null-nil/tendermint/crypto"
 	"github.com/stretchr/testify/suite"
-	"github.com/tendermint/tendermint/crypto"
 )
 
 func TestSKSuite(t *testing.T) {

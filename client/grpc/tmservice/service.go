@@ -3,9 +3,9 @@ package tmservice
 import (
 	"context"
 
+	abci "github.com/Null-nil/tendermint/abci/types"
 	gogogrpc "github.com/gogo/protobuf/grpc"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	abci "github.com/tendermint/tendermint/abci/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 

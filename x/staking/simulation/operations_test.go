@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
+	abci "github.com/Null-nil/tendermint/abci/types"
+	tmproto "github.com/Null-nil/tendermint/proto/tendermint/types"
+	tmtypes "github.com/Null-nil/tendermint/types"
 	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
 	"github.com/stretchr/testify/require"
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	tmtypes "github.com/tendermint/tendermint/types"
 
 	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
 	"github.com/cosmos/cosmos-sdk/simapp"

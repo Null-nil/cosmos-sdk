@@ -1,8 +1,8 @@
 package keys
 
 import (
+	"github.com/Null-nil/tendermint/libs/cli"
 	"github.com/spf13/cobra"
-	"github.com/tendermint/tendermint/libs/cli"
 
 	"github.com/cosmos/cosmos-sdk/client/flags"
 )

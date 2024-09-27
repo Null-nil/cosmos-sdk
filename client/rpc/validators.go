@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
+	tmcli "github.com/Null-nil/tendermint/libs/cli"
+	tmtypes "github.com/Null-nil/tendermint/types"
 	"github.com/spf13/cobra"
-	tmcli "github.com/tendermint/tendermint/libs/cli"
-	tmtypes "github.com/tendermint/tendermint/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"

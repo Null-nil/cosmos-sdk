@@ -7,11 +7,11 @@ import (
 	"io"
 	"testing"
 
+	tmcrypto "github.com/Null-nil/tendermint/crypto"
+	"github.com/Null-nil/tendermint/crypto/xsalsa20symmetric"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/crypto/bcrypt"
-	tmcrypto "github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/xsalsa20symmetric"
 
 	"github.com/cosmos/cosmos-sdk/codec/legacy"
 	"github.com/cosmos/cosmos-sdk/crypto"

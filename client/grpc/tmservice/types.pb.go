@@ -5,11 +5,11 @@ package tmservice
 
 import (
 	fmt "fmt"
+	types "github.com/Null-nil/tendermint/proto/tendermint/types"
+	version "github.com/Null-nil/tendermint/proto/tendermint/version"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	github_com_gogo_protobuf_types "github.com/gogo/protobuf/types"
-	types "github.com/tendermint/tendermint/proto/tendermint/types"
-	version "github.com/tendermint/tendermint/proto/tendermint/version"
 	_ "google.golang.org/protobuf/types/known/timestamppb"
 	io "io"
 	math "math"

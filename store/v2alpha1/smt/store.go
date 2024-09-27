@@ -8,9 +8,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/db/prefix"
 	"github.com/cosmos/cosmos-sdk/store/types"
 
+	tmcrypto "github.com/Null-nil/tendermint/proto/tendermint/crypto"
 	"github.com/celestiaorg/smt"
 	ics23 "github.com/confio/ics23/go"
-	tmcrypto "github.com/tendermint/tendermint/proto/tendermint/crypto"
 )
 
 var (

@@ -3,8 +3,8 @@ package multi
 import (
 	"crypto/sha256"
 
-	"github.com/tendermint/tendermint/crypto/merkle"
-	tmcrypto "github.com/tendermint/tendermint/proto/tendermint/crypto"
+	"github.com/Null-nil/tendermint/crypto/merkle"
+	tmcrypto "github.com/Null-nil/tendermint/proto/tendermint/crypto"
 
 	types "github.com/cosmos/cosmos-sdk/store/v2alpha1"
 	"github.com/cosmos/cosmos-sdk/store/v2alpha1/smt"

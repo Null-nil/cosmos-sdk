@@ -3,10 +3,10 @@ package mock
 import (
 	"testing"
 
+	abci "github.com/Null-nil/tendermint/abci/types"
+	tmproto "github.com/Null-nil/tendermint/proto/tendermint/types"
+	"github.com/Null-nil/tendermint/types"
 	"github.com/stretchr/testify/require"
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	"github.com/tendermint/tendermint/types"
 )
 
 // TestInitApp makes sure we can initialize this thing without an error

@@ -13,8 +13,8 @@ import (
 
 	"google.golang.org/grpc"
 
+	rpcclient "github.com/Null-nil/tendermint/rpc/client"
 	"github.com/gogo/protobuf/proto"
-	rpcclient "github.com/tendermint/tendermint/rpc/client"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"

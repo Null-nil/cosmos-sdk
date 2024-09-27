@@ -3,10 +3,10 @@ package cmd
 import (
 	"context"
 
+	tmcfg "github.com/Null-nil/tendermint/config"
+	tmcli "github.com/Null-nil/tendermint/libs/cli"
 	"github.com/rs/zerolog"
 	"github.com/spf13/cobra"
-	tmcfg "github.com/tendermint/tendermint/config"
-	tmcli "github.com/tendermint/tendermint/libs/cli"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"

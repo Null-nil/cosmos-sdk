@@ -10,10 +10,10 @@ import (
 	"strings"
 	"testing"
 
+	tmcfg "github.com/Null-nil/tendermint/config"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	tmcfg "github.com/tendermint/tendermint/config"
 	dbm "github.com/tendermint/tm-db"
 
 	"github.com/cosmos/cosmos-sdk/client"

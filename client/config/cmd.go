@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"path/filepath"
 
-	tmcli "github.com/tendermint/tendermint/libs/cli"
+	tmcli "github.com/Null-nil/tendermint/libs/cli"
 
 	"github.com/spf13/cobra"
 

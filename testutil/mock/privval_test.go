@@ -3,8 +3,8 @@ package mock
 import (
 	"testing"
 
+	tmproto "github.com/Null-nil/tendermint/proto/tendermint/types"
 	"github.com/stretchr/testify/require"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 )
 
 func TestGetPubKey(t *testing.T) {
