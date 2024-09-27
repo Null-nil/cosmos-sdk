@@ -1,6 +1,6 @@
 go 1.18
 
-module github.com/cosmos/cosmos-sdk
+module github.com/Null-nil/cosmos-sdk
 
 require (
 	cosmossdk.io/errors v1.0.0-beta.7
